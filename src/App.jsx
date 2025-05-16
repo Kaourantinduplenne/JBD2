@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Card, CardContent } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Card, CardContent } from './components/ui/card';
+import { Button } from './components/ui/button';
 import { FolderOpen, FileText, UploadCloud } from 'lucide-react';
-import { Input } from '@/components/ui/input';
+import { Input } from './components/ui/input';
 
 const ADMIN_PASSWORD = 'admin123';
 
